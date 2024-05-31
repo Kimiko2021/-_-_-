@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+.navigator a:hover {
+  color: #ff69b4;
+}
+
+.last {
+	float:right;
+	font-size: 2vh;
+}
+body {
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0fa;
+  margin: 0 auto;
+}
+header {
+  padding: 2vh 0;
+  	text-align: center;
+	width: 100%;
+	font-size: 4vh;
+	height: auto;
+}
+
+.header {
+	padding: 2vh 0;
+  	text-align: center;
+	width: 100%;
+	font-size: 4vh;
+	height: auto;
+	margin: 0 0 3vh 0;
+}
+
+.navigator {
+  margin: 1vh auto 2vh auto;
+  background-color: #fff;
+  border-radius: 3vh;
+  padding: 2vh;
+  align-items: left;
+  box-shadow: 0 0 1vh rgba(0, 0, 0, 0.1);
+  width: 60%;
+  display:flex;
+}
+
+.navigator a, span {
+  color: #333;
+  text-decoration: none;
+  margin: 0 1vh;
+  transition: color 0.2s ease;
+  font-size: 2vh;
+}
+
+footer {
+	text-align: center; 
+	background-color: gray; 
+	padding: 2vh 0 0 0 ;
+	font-size: 2vh;
+}
+
+footer p {
+	margin: 1vh 0 0 0;	
+}
+
+@media (max-width: 360px) {
+  
+  .navigator {
+  width: 60%;
+  flex-wrap:wrap;
+}
+
+.navigator a, span {
+  display: block;
+  position: relative;
+  text-align:center;
+  font-size: 4vh;
+  float: none;
+}
+
+.navigator span {
+	display: none;
+}
+  
+}
+@media (max-width: 480px) {
+    .navigator {
+  width: 60%;
+  flex-wrap:wrap;
+}
+
+.navigator a, span {
+  display: block;
+  position: relative;
+  text-align:center;
+  font-size: 4vh;
+  float: none;
+}
+
+.navigator span {
+	display: none;
+}
+}
+
+@media (max-width: 767px) {
+  
+}

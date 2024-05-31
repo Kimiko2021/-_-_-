@@ -1,0 +1,48 @@
+/* Основные стили для секции управления */
+
+section {
+  background-color: #f7f7f7; /* Цвет фона */
+  padding: 2vh; /* Внутренние отступы */
+  border-radius: 2vh; /* Скругление углов */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+  margin-bottom: 2vh; /* Отступ снизу */
+  width: 30%;
+  margin: 10vh auto;
+  text-align:center;
+}
+
+/* Заголовок секции */
+section h2 {
+  color: #333; /* Цвет текста */
+  margin-bottom: 1vh; /* Отступ снизу */
+  text-align:center;
+}
+
+/* Стили для кнопок */
+.button2, .button3 {
+  background-color: #bd9f9f; /* Цвет фона */
+  color: white; /* Цвет текста */
+  padding: 1vh 1vh; /* Внутренние отступы */
+  border: none; /* Убрать границу */
+  border-radius: 2vh; /* Скругление углов */
+  cursor: pointer; /* Курсор в виде указателя */
+  transition: background-color 0.3s; /* Плавное изменение цвета фона */
+	margin: 0 auto;
+}
+
+.button2:hover, .button3:hover {
+  background-color: #cdcfcb; /* Цвет фона при наведении */
+}
+
+/* Стили для форм */
+form {
+  margin-right: 1vh; /* Отступ справа */
+}
+
+/* Стили для выпадающих списков */
+select {
+  padding: 1vh; /* Внутренние отступы */
+  margin-right: 1vh; /* Отступ справа */
+  border-radius: 1vh; /* Скругление углов */
+  border: 1px solid #ccc; /* Граница */
+}

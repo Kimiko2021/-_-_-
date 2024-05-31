@@ -1,0 +1,110 @@
+
+
+.conteiner_comm {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.comm {
+	font-family: 'Dancing Script', cursive;
+    margin: 2vh auto;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 4vh;
+	display: block;
+}
+
+.name {
+	font-size: 2vh;
+	font-weight:bold;
+	margin: 1vh 0 0 3vh;
+}
+.date {
+	color: gray;
+	font-size: 1.5vh;
+}
+.comment {
+	font-size: 2.2vh;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 4vh;
+	margin: 3vh 0 0 0;
+}
+
+.commen a {
+	margin: 1vh 0 0 3vh;
+}
+
+.form_comm {
+	width: 50%;
+	margin: 5vh auto;
+	text-align: center;
+	
+}
+
+.form_comm textarea {
+	height: 6vh;
+	width: 95%;
+	border-radius: 4vh;
+	border: none;
+	padding: 3vh;
+	font-size: 2vh;
+	margin: 0 auto;
+}
+
+.submit, .history-button {
+	float: right;
+	border-radius: 2vh;
+	border-color: #d9b0cb;
+	border-width: 0.2vh;
+	width: 15vh;
+	height: 3vh;
+	font-size: 2vh
+}
+
+.history-button {
+	float: left;
+	width: 25vh;
+	margin: 0 0 4vh 0;
+}
+
+.submit:hover, .history-button:hover {
+	cursor: pointer;
+}
+
+.return {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+}
+
+
+.card2 {
+    margin: 3vh auto;
+	background-color: rgba(255, 255, 255, 0.4);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 3vh;
+	width: 30%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.image_dress {
+	width: 70%;
+	margin: 3vh 0 1vh 0;
+	border-radius: 3vh 3vh 0 0;
+}
+
+
+.card__image1 {
+	width: 90%;
+	margin: 2vh;
+	border-radius: 3vh 3vh 0 0;
+	object-fit: cover;
+}
+
+.description p {
+	font-size: 2vh;
+	margin: 2vh;
+}

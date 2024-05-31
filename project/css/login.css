@@ -1,0 +1,78 @@
+/* Стилизация контейнера */
+.container {
+    margin: 7vh;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Стилизация кнопок переключения */
+.btn {
+    
+	margin: 3vh 0 0 0;
+	position: relative;
+    text-align: center;
+}
+
+.login, .signup {
+    
+    border: none;
+    border-radius: 1vh;
+    
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+  
+
+/* Стилизация формы входа */
+.form-section {
+    width: 100%;
+    max-width: 400px;
+    padding: 2.5vh;
+    background-color: #f7f7f7;
+    border-radius: 1vh;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.ele {
+    width: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.clkbtn {
+    padding: 5px;
+    border: none;
+    background-color: #ffecfa;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+   }
+
+.clkbtn:hover {
+    background-color: #ecb6c8;
+}
+
+/* Стилизация сообщения об ошибке */
+.notice.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}

@@ -1,0 +1,62 @@
+/* Стилизация основного контейнера формы */
+form {
+
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилизация полей ввода и меток */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 16px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Для сохранения ширины включая padding */
+}
+
+/* Стилизация кнопки отправки */
+form input {
+  
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ebebeb;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Изменение цвета кнопки при наведении */
+form input[type="submit"]:hover {
+  background-color: #4cae4c;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 6vh;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
